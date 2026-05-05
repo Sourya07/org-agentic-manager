@@ -14,11 +14,23 @@ coverage
 .env.*
 !.env.example
 
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual environments
+venv/
+.venv/
+services/**/venv/
+
 # logs
 *.log
 pnpm-debug.log*
 
 # OS / editor
 .DS_Store
+Thumbs.db
 .idea
 .vscode
